@@ -103,10 +103,8 @@
             margin-bottom: 10px;
         }
         &__content {
-            margin: 30px 10px;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
+            margin: 30px auto;
+            justify-content: space-around;
         }
     }
 }
