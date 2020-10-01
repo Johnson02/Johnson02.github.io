@@ -90,4 +90,23 @@
             width: 100%;
         }
     }
+    .carousel {
+        display: none;
+    }
+    .catalog {
+        padding: 55px 0 40px 0;
+        &__tabs {
+            margin-top: 60px;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 10px;
+        }
+        &__content {
+            margin: 30px 10px;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    }
 }
