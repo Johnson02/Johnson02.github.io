@@ -113,4 +113,18 @@
             padding: 50px 30px 30px 30px;
         }
     }
+    .modal {
+        transform: translate(-60%, -55%);
+        width: 280px;
+        &__close {
+            top: 5px;
+            right: 5px;
+        }
+    }
+    .pageup {
+        bottom: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
 }
